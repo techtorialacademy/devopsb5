@@ -64,12 +64,41 @@ Type of Numerical Variables
        imaginary and real parts. 
        Ex: 5 + 4j -> 5 is the real part 4j is the imaginary part. 
 
-    
+Type Function
+    The type() function is a built-in Python function 
+    used to determine the data type of a variable. 
+        Ex: a = 10
+            print(type(a)) #Output <class 'int'> 
+            b = 10.1
+            print(type(b)) #Output <class 'float'> 
+    Importance: 
+        Helps debugging
+        Useful when learning because it helps you to 
+        understand how python works with data types. 
 
+Creating Multiple Variables In Single Line 
+    We can define multiple variable on a single line, 
+    by separating them with commas(,). 
+        Syntax: a,b,c = 1.1 , 1 , "h"        
 
+    Advantage: 
+        Reduce the line of your code.
+        More readable
+        Compact code
 
+Assigning Multiple Variables With A Same Value 
+    Ex: a = b = c = d = 5
+        #in the line above variable a, b, c and d will 
+        #be assigned with a value 5 and type of all Variables
+        #will be integer. 
 
-
+ReAssignment in Python 
+    After variables assigned with a value, we can also
+    assign a new value to them. 
+    Ex: var1 = 6
+        var1 = "d"
+        var1 = 1.0
+        
 
 
 

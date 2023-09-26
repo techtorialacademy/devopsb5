@@ -13,7 +13,7 @@ print(3 ** 2) # 3 * 3 -> 9
 
 # There is a cube with a side length 11 using python calculate 
 # the volume of the cube. 
-# formula for calculating the volume is find the cube of the side. 
+# formula for calculating the volume is find the cube of the side length. 
 
 side = 11
 print(side ** 3 ) # 11 * 11 * 11

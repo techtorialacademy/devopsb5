@@ -15,10 +15,10 @@ print(type(is_September)) # <class 'bool'>
 #is_updated = false
 
 #
-a = 0
-false = a
-new = False
-print ("The variable new is:",new) 
+# a = 0
+# false = a
+# new = False
+# print ("The variable new is:",new) 
 #
 
 

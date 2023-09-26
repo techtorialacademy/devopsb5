@@ -76,15 +76,15 @@ In git we can use PAT(Personal Access Token): A secure token
 that users generate to authenticate into their github account when 
 using HTTPS protocol. 
 
+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
+
+https://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@github.com/techtorialacademy/devopsb5.git
 
 
+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
 
 
-
-
-
-
-
+https://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@github.com/techtorialacademy/devopsb5.git
 
 
 

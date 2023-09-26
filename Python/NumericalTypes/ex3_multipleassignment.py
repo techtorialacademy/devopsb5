@@ -11,7 +11,7 @@ print("a:",a)
 print("b:",b)
 print("c:",c)
 print("d:",d)
-
+print(e)
 #Python always looks for the last asignment to the line 
 # it is executing.
 
