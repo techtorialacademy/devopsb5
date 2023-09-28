@@ -48,8 +48,23 @@ print( False or True and False) #  False
 
 ```
 
+# Immutability
+- All numerical data types in python are immutable which means their value will not be modified in any case other than reassignment. 
 
-
+# Escape Characters in String(Texts)
+- If you want to add unallowed character to the string(text) you can use backslash \ to insert those unallowed characters. 
+```py
+#In python we can't use " if the text is defined in ""(double quotes)
+print ("") # This line will print " only
+print (' \' ') # This line will print ' only
+print ("'") #This line will print only '
+print ('"') # This line will print only " 
+```
+# Note ! 
+- Any boolean variable that is used in arithmetic opr. 
+will take the value 1 or 0. 
+True -> 1
+False -> 0
 
 
 

@@ -15,15 +15,15 @@
 grade = int(input("Enter your grade as an integer:"))
 if grade > 100 or grade < 0:
     print ("Invalid grade.")
-if grade > 94:
+elif grade > 94:
     print("A+")
-if 85 <= grade <=94: #   85 <= grade <=94 translates to 85 <= grade and grade <=94
+elif 85 <= grade <=94: #   85 <= grade <=94 translates to 85 <= grade and grade <=94
     print("A")
-if 75 <= grade <=84:
+elif 75 <= grade <=84:
     print("B")
-if 65 <= grade <=74:
+elif 65 <= grade <=74:
     print("C")
-if grade < 65:
+elif grade < 65:
     print("Grade doesn't meet expectations.")
 
 

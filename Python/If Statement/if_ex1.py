@@ -8,10 +8,14 @@ num2 = int(input("Enter number 2:"))
 
 if num1 == num2:
     print("You entered two equal numbers.")
-elif True:
+elif num1 != num2:
     print("You didn't follow the instructions.")
 
-
+# Note! By using elif statement we are telling python that both conditions 
+# can't be True, so if the first condition is True, it doesn't check the 
+# elif's condition.
+# We could say that we use elif statement for conditions that depend on 
+# each other so either one or the other one is True. 
 
 
 

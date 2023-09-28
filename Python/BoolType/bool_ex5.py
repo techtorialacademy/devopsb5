@@ -8,7 +8,7 @@ avg_cpu_utilization = int(input("Enter the avg. cpu utilization please:"))
 
 # Print True when avg_cpu_utilization is in between 40 and 70 inclusive
 
-should_launch = 40 <= avg_cpu_utilization <= 70 
+should_launch = 70 >= avg_cpu_utilization >= 40 
 
 print(should_launch)
 
